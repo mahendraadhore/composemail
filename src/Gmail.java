@@ -50,6 +50,8 @@ public class Gmail {
 			Attachment.click();
 			Attachment.sendKeys("C:/Users/HP-Laptop/Mahendra Adhore.docx");
 			
+			driver.findElement(By.xpath("//div[@id=':8a']")).click();
+			
 			
 
 		}
